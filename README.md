@@ -96,7 +96,11 @@ primeride/
    cd primeride
    ```
 
-2. **Set Up the Backend**:
+2. **Set Up the Frontend**:
+   - Place the `primeride` folder in your XAMPP `htdocs` directory.
+   - Start Apache using the XAMPP control panel.
+
+3. **Set Up the Backend**:
    - Open the backend folder in IntelliJ IDEA.
    - Configure the database in `application.properties`:
      ```properties
@@ -109,10 +113,6 @@ primeride/
      ```bash
      mvn spring-boot:run
      ```
-
-3. **Set Up the Frontend**:
-   - Place the `primeride` folder in your XAMPP `htdocs` directory.
-   - Start Apache using the XAMPP control panel.
 
 4. **Access the Application**:
    - Open your browser and navigate to:
