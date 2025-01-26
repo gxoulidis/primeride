@@ -84,7 +84,7 @@ primeride/
 ## Installation and Setup
 
 ### Prerequisites
-- Java 21
+- Java 17
 - Maven
 - MySQL Server
 - XAMPP (Apache and PHP)
@@ -104,6 +104,7 @@ primeride/
      spring.datasource.username=YOUR_USERNAME
      spring.datasource.password=YOUR_PASSWORD
      ```
+   - Start MySQL using the XAMPP control panel.
    - Build and run the backend using Maven:
      ```bash
      mvn spring-boot:run
