@@ -93,7 +93,6 @@ primeride/
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/gxoulidis/primeride.git
-   cd primeride
    ```
 
 2. **Set Up the Frontend**:
