@@ -1,0 +1,231 @@
+.error-message {
+  color: red;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav ul::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  overflow: hidden;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  color: #f2f2f2;
+  margin: 10px 0;
+}
+
+footer a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ddd;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer ul::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Table Styles */
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  text-align: left;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Form Styles */
+.user-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+.user-form h2 {
+  text-align: center;
+  color: #009879;
+  margin-bottom: 20px;
+}
+
+.user-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #555555;
+}
+
+.user-form input[type="text"],
+.user-form input[type="number"],
+.user-form input[type="email"],
+.user-form input[type="password"],
+.user-form select,
+.user-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.user-form input[type="text"]:focus,
+.user-form input[type="number"]:focus,
+.user-form select:focus,
+.user-form textarea:focus {
+  border-color: #009879;
+  outline: none;
+}
+
+.user-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #009879;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.user-form button:hover {
+  background-color: #007f65;
+}
+
+.user-form .error-message {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.user-form p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #777777;
+}
+
+.cancel-booking-btn,
+.end-booking-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-booking-btn:hover,
+.end-booking-btn:hover {
+  background-color: darkred;
+}
+
+.create-booking-btn {
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.create-booking-btn:hover {
+  background-color: darkcyan;
+}
