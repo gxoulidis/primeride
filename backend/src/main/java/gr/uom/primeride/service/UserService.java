@@ -166,7 +166,7 @@ public class UserService {
 
     private void throwNotFoundException(String message, String field, String reason) {
         throw new ResourceNotFoundException.Builder(message)
-                .addDetail(field, message)
+                .addDetail(field, reason)
                 .build();
     }
 
