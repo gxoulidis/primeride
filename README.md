@@ -1,4 +1,4 @@
-# PrimeRide - Car Rental and Sales System
+# PrimeRide
 
 PrimeRide is a Service-Oriented application designed for car rentals and sales. It provides citizens the ability to search for cars, book test drives, and purchase vehicles, while allowing dealerships to manage their car inventory efficiently.
 
